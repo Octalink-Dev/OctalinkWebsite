@@ -1,0 +1,86 @@
+{
+  "asset": { "generator": "glTF-Transform v4.0.2", "version": "2.0" },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2890,
+      "max": [0.41863346099853516, 0.03234235569834709, 0.18985243141651154],
+      "min": [-0.2652610242366791, -0.029573380947113037, -0.2991713583469391],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2890,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2890,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 5175,
+      "bufferView": 1,
+      "byteOffset": 0
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 92480,
+      "byteStride": 32,
+      "target": 34962
+    },
+    { "buffer": 0, "byteOffset": 92480, "byteLength": 10352, "target": 34963 }
+  ],
+  "buffers": [{ "uri": "octalink.bin", "byteLength": 102832 }],
+  "materials": [
+    {
+      "name": "SVGMat.315",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.10892441123723984, 0.21181127429008484, 1, 1],
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.6116840243339539
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Curve.002",
+      "primitives": [
+        {
+          "attributes": { "POSITION": 0, "NORMAL": 1, "TEXCOORD_0": 2 },
+          "mode": 4,
+          "material": 0,
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Curve.001",
+      "translation": [
+        -0.623468279838562, 0.6046468019485474, -0.002943776547908783
+      ],
+      "rotation": [
+        0.7043177485466003, 0.008127073757350445, -0.023044969886541367,
+        0.7094641923904419
+      ],
+      "scale": [5.088809013366699, 2.215606927871704, 2.346909284591675],
+      "mesh": 0
+    }
+  ],
+  "scenes": [{ "name": "Scene", "nodes": [0] }],
+  "scene": 0
+}
